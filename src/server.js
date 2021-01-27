@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const homeController = require("./controllers/home");
 const payrollController = require("./controllers/payroll");
 
-const PORT = 3000;
+const PORT = process.env.PORT ?? 3000;
 
 const app = express();
 app.use(cors());

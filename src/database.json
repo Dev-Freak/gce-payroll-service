@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "name": "Uruguay",
+      "currencyPrice": 41.9,
+      "taxable_items": {
+        "employer": [
+          {
+            "name": "Jubilación Común",
+            "percentage": 0.075
+          },
+          {
+            "name": "Servicios Bonificados",
+            "percentage": 0.069
+          },
+          {
+            "name": "Fondo Nacional Salud (Fonasa)",
+            "percentage": 0.05
+          },
+          {
+            "name": "Fondo Reconversión Laboral (FRL)",
+            "percentage": 0.001
+          },
+          {
+            "name": "Fondo de Garantía de Créditos Laborales",
+            "percentage": 0.00025
+          }
+        ],
+        "employee": [
+          {
+            "name": "Jubilación Común",
+            "percentage": 0.15
+          },
+          {
+            "name": "Fondo Nacional Salud (Fonasa)",
+            "percentage": 0.03
+          },
+          {
+            "name": "Fondo Reconversión Laboral (FRL)",
+            "percentage": 0.001
+          }
+        ]
+      },
+      "payable_forecast": [
+        {
+          "name": "Vacaciones",
+          "description": "DIAS",
+          "percentage": 0.0555555556
+        },
+        {
+          "name": "Aguinaldo proporcinal (bono navideño)",
+          "description": "(SALARIO x MESES) / 12",
+          "percentage": 0.0833333334
+        },
+        {
+          "name": "Indemnizacion",
+          "description": "1 mes de salario por año de servicio",
+          "percentage": 0.0833333334
+        }
+      ],
+      "taxEIT": 0.22
+    },
+    {
+      "name": "Colombia",
+      "currencyPrice": 3461,
+      "taxable_items": {
+        "employer": [
+          {
+            "name": "Salúd Obligatoria",
+            "percentage": 0.085
+          },
+          {
+            "name": "Contribución de Jubilación",
+            "percentage": 0.12
+          },
+          {
+            "name": "ARL",
+            "descripción": "Admninistradora de Riesgos Laborales",
+            "percentage": 0.00522
+          },
+          {
+            "name": "Caja de Compensación Familiar",
+            "percentage": 0.04
+          },
+          {
+            "name": "SENA",
+            "percentage": 0.02
+          },
+          {
+            "name": "ICBF",
+            "percentage": 0.03
+          }
+        ],
+        "employee": [
+          {
+            "name": "Salúd Obligatoria",
+            "percentage": 0.04
+          },
+          {
+            "name": "Pensión Obligatoria",
+            "percentage": 0.04
+          },
+          {
+            "name": "Fondo de Solidaridad Pensional",
+            "percentage": 0.02
+          },
+          {
+            "name": "Impuesto de Renta",
+            "percentage": 0.174355
+          }
+        ]
+      },
+      "payable_forecast": [
+        {
+          "name": "Cesantías",
+          "percentage": 0.0833
+        },
+        {
+          "name": "Intereses de cesantías",
+          "percentage": 0.01
+        },
+        {
+          "name": "Prima de servicios",
+          "percentage": 0.0833
+        },
+        {
+          "name": "Vacaciones",
+          "percentage": 0.0417
+        },
+        {
+          "name": "Indemnización",
+          "percentage": 0.0833
+        }
+      ],
+      "taxEIT": 0.19
+    }
+  ]
+}

@@ -4,42 +4,48 @@
       "name": "Uruguay",
       "currencyPrice": 41.9,
       "taxable_items": {
-        "employer": [
-          {
-            "name": "Jubilación Común",
-            "percentage": 0.075
-          },
-          {
-            "name": "Servicios Bonificados",
-            "percentage": 0.069
-          },
-          {
-            "name": "Fondo Nacional Salud (Fonasa)",
-            "percentage": 0.05
-          },
-          {
-            "name": "Fondo Reconversión Laboral (FRL)",
-            "percentage": 0.001
-          },
-          {
-            "name": "Fondo de Garantía de Créditos Laborales",
-            "percentage": 0.00025
-          }
-        ],
-        "employee": [
-          {
-            "name": "Jubilación Común",
-            "percentage": 0.15
-          },
-          {
-            "name": "Fondo Nacional Salud (Fonasa)",
-            "percentage": 0.03
-          },
-          {
-            "name": "Fondo Reconversión Laboral (FRL)",
-            "percentage": 0.001
-          }
-        ]
+        "employer": {
+          "charges": [
+            {
+              "name": "Jubilación Común",
+              "percentage": 0.075
+            },
+            {
+              "name": "Servicios Bonificados",
+              "percentage": 0.069
+            },
+            {
+              "name": "Fondo Nacional Salud (Fonasa)",
+              "percentage": 0.05
+            },
+            {
+              "name": "Fondo Reconversión Laboral (FRL)",
+              "percentage": 0.001
+            },
+            {
+              "name": "Fondo de Garantía de Créditos Laborales",
+              "percentage": 0.00025
+            }
+          ],
+          "deductions": []
+        },
+        "employee": {
+          "charges": [
+            {
+              "name": "Jubilación Común",
+              "percentage": 0.15
+            },
+            {
+              "name": "Fondo Nacional Salud (Fonasa)",
+              "percentage": 0.03
+            },
+            {
+              "name": "Fondo Reconversión Laboral (FRL)",
+              "percentage": 0.001
+            }
+          ],
+          "deductions": []
+        }
       },
       "payable_forecast": [
         {
@@ -64,51 +70,99 @@
       "name": "Colombia",
       "currencyPrice": 3461,
       "taxable_items": {
-        "employer": [
-          {
-            "name": "Salúd Obligatoria",
-            "percentage": 0.085
-          },
-          {
-            "name": "Contribución de Jubilación",
-            "percentage": 0.12
-          },
-          {
-            "name": "ARL",
-            "descripción": "Admninistradora de Riesgos Laborales",
-            "percentage": 0.00522
-          },
-          {
-            "name": "Caja de Compensación Familiar",
-            "percentage": 0.04
-          },
-          {
-            "name": "SENA",
-            "percentage": 0.02
-          },
-          {
-            "name": "ICBF",
-            "percentage": 0.03
-          }
-        ],
-        "employee": [
-          {
-            "name": "Salúd Obligatoria",
-            "percentage": 0.04
-          },
-          {
-            "name": "Pensión Obligatoria",
-            "percentage": 0.04
-          },
-          {
-            "name": "Fondo de Solidaridad Pensional",
-            "percentage": 0.02
-          },
-          {
-            "name": "Impuesto de Renta",
-            "percentage": 0.174355
-          }
-        ]
+        "employer": {
+          "charges": [
+            {
+              "name": "ICBF",
+              "percentage": 0.03
+            },
+            {
+              "name": "ARL",
+              "descripción": "Admninistradora de Riesgos Laborales",
+              "percentage": 0.00522
+            },
+            {
+              "name": "Caja de Compensación Familiar",
+              "percentage": 0.04
+            },
+            {
+              "name": "SENA",
+              "percentage": 0.02
+            },
+            {
+              "name": "Vacaciones",
+              "percentage": 0.0417
+            },
+            {
+              "name": "Cesantías",
+              "percentage": 0.0833
+            },
+            {
+              "name": "Contribución de jubilación (mensual) ",
+              "percentage": 0.12
+            },
+            {
+              "name": "Salud obligatoria",
+              "percentage": 0.085
+            },
+            {
+              "name": "Seguro de protección de ingresos",
+              "percentage": 0.0833
+            },
+            {
+              "name": "Participación en los beneficios de los servicios (prima)",
+              "percentage": 0.0833
+            },
+            {
+              "name": "Protección de los ingresos por intereses",
+              "percentage": 0.01
+            },
+            {
+              "name": "Devengo de vacaciones",
+              "percentage": 0.0833
+            },
+            {
+              "name": "Indemnización/ DISMISSAL",
+              "percentage": 0.0833
+            }
+          ],
+          "deductions": []
+        },
+        "employee": {
+          "charges": [
+            {
+              "name": "Subsidio de transporte",
+              "value": 102854.0,
+              "optional": true
+            },
+            {
+              "name": "Prima de servicios",
+              "percentage": 0.0833
+            },
+            {
+              "name": "Intereses de cesantías",
+              "percentage": 0.01
+            },
+            {
+              "name": "Contribución de jubilación",
+              "percentage": 0.01
+            }
+          ],
+          "deductions": [
+            {
+              "name": "Salúd Obligatoria",
+              "percentage": 0.04
+            },
+            {
+              "name": "Pensión Obligatoria",
+              "percentage": 0.04
+            },
+            {
+              "name": "Fondo de Solidaridad Pensional",
+              "percentage": 0.02
+            }
+          ]
+        }
       },
       "payable_forecast": [
         {
